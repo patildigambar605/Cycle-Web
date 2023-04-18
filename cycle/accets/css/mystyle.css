@@ -1,0 +1,85 @@
+*{
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+.header{
+    background-color: antiquewhite;
+    height: 500px;
+ }
+ nav{
+    background-color: rgb(108, 103, 141);
+    margin-top: 5px ;
+    padding: 2px;
+ }
+ li{
+    display: inline;
+ }
+ li a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding:10px 30px 10px 30px;
+ }
+ a:hover{
+    color: white;
+    background-color: rgb(58, 52, 98);
+ }
+ .logo{
+    float: left;
+    width: 10%;
+    height: auto;
+    padding: 5px
+ }
+ .image-one{
+    float: left;
+    width: 50%;
+
+ }
+ .image-one-info{
+    padding: 30px 20px 10px 20px;
+    font-size: larger;
+    font-weight: bolder;
+    text-transform: uppercase; 
+    background-color: rgb(245, 209, 161);
+    color: white;
+    margin-top: 5px;
+    text-shadow: 2px 2px 5px gray;
+}
+.button-shopnow{
+    width: 180px;
+    float: left;
+    font-size: 18px;
+    color: #ffffff;
+    text-align: center;
+    background-color: rgb(58, 52, 98);
+    padding: 8px 0px;
+    border: none;
+    border-radius: 5px
+}
+.button-shopnow:hover{
+    background-color: white;
+    color: rgb(108, 103, 141);
+
+}
+.our-cycle{
+    text-align: center;
+    font-size: larger;
+}
+
+.cycle_one{
+    display: flex;
+}
+
+.cycle_one .cycle_one_img{
+    flex: 2;
+}
+
+.cycle_one .cycle_one_text{
+    flex: 2;
+}
+
+
+
+@media screen and (max-width:600px) {
+    .logo, nav, .header, .image-one, .image-one-info, .button-shopnow, header, article{
+        width: 100%;
+    }
+}
